@@ -111,11 +111,11 @@ bot = telepot.Bot('insert your token')
 if matches [0] == True:
     engine.say("Wellcome home etcodetech") 
     cv2.imwrite("family.jpg", frame)
-    bot.sendPhoto(chat_id, photo=open('family.jpg', 'rb'))
+    bot.sendPhoto('insert your chat id', photo=open('family.jpg', 'rb'))
 else:
     engine.say("Who are you ? i don't know you")
     engine.say("Please go back later")
     cv2.imwrite("guest.jpg", frame)
-    bot.sendPhoto('1303786078', photo=open('guest.jpg', 'rb'))
+    bot.sendPhoto('insert your chat id', photo=open('guest.jpg', 'rb'))
 engine.runAndWait()       
 ````
