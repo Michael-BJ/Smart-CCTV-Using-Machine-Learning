@@ -2,7 +2,7 @@
 
 How it's works ?
 ---
-1. First install libary that we need
+1. First install library that we need
 ````
 pip install opencv-python   
 pip install numpy
