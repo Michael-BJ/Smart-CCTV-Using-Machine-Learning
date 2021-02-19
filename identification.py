@@ -54,7 +54,7 @@ while True:
             if matches [0] == True:
                 engine.say("Wellcome home etcodetech") 
                 cv2.imwrite("family.jpg", frame)
-                bot.sendPhoto('1303786078', photo=open('family.jpg', 'rb'))
+                bot.sendPhoto('insert your chat id', photo=open('family.jpg', 'rb'))
             else:
                 engine.say("Who are you ? i don't know you")
                 engine.say("Please go back later")
