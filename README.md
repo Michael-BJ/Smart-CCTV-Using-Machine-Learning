@@ -1,4 +1,4 @@
-# Smart CCTV using Machine Learning 
+# Smart CCTV Using Machine Learning 
 
 How it's works ?
 ---
