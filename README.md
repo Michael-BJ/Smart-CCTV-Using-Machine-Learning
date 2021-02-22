@@ -29,7 +29,7 @@ cv2.destroyAllWindows()
 3. Connect the program to your webcam 
 ````
 import cv2
-import numpy as numpy
+import numpy as np
 
 cap = cv2.VideoCapture(0)
 while True:
